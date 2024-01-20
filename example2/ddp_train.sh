@@ -1,0 +1,1 @@
+CUDA_VISUAL_DEVICE="0,1" python -m torch.distributed.launch --nproc_per_node 2  mnist_cnn_gpu_ddp.py --ngpus 2 --gpus all
